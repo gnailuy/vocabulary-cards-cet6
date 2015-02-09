@@ -1,0 +1,89 @@
+\PassOptionsToPackage{a4paper}{geometry}
+\documentclass[avery5371,grid]{flashcards}
+
+% 解决中文问题
+\usepackage{xeCJK}
+\setCJKmainfont{SimHei}                % 设置中文字体
+% \setmainfont{DejaVu Sans Mono Bold}  % 设置英文字体
+
+% 卡片设计
+\cardbackstyle{empty}
+\cardfrontstyle[\large\slshape]{headings}
+\cardfrontfoot{CET-6}                  % 卡片脚注
+
+% 其他可能用到的的宏包
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{datetime}
+\usepackage{textcomp}
+
+% 解决 tixtipa 不能用的问题
+\AtBeginDocument{
+  \renewcommand\textipa[2][r]{{\fontfamily{cm#1}\tipaencoding #2}}
+}
+
+% 文档开始
+\begin{document}
+
+% 导入词汇列表
+% 1~7
+\input{wordLists/wordListCET6-20110325}
+\input{wordLists/wordListCET6-20110326}
+\input{wordLists/wordListCET6-20110327}
+\input{wordLists/wordListCET6-20110328}
+\input{wordLists/wordListCET6-20110329}
+\input{wordLists/wordListCET6-20110330}
+\input{wordLists/wordListCET6-20110331}
+
+% 8~14
+\input{wordLists/wordListCET6-20110401}
+\input{wordLists/wordListCET6-20110402}
+\input{wordLists/wordListCET6-20110403}
+\input{wordLists/wordListCET6-20110404}
+\input{wordLists/wordListCET6-20110405}
+\input{wordLists/wordListCET6-20110406}
+\input{wordLists/wordListCET6-20110407}
+
+% 15~21
+\input{wordLists/wordListCET6-20110408}
+\input{wordLists/wordListCET6-20110409}
+\input{wordLists/wordListCET6-20110410}
+\input{wordLists/wordListCET6-20110411}
+\input{wordLists/wordListCET6-20110412}
+\input{wordLists/wordListCET6-20110413}
+\input{wordLists/wordListCET6-20110414}
+
+% 22~28
+\input{wordLists/wordListCET6-20110415}
+\input{wordLists/wordListCET6-20110416}
+\input{wordLists/wordListCET6-20110417}
+\input{wordLists/wordListCET6-20110418}
+\input{wordLists/wordListCET6-20110419}
+\input{wordLists/wordListCET6-20110420}
+\input{wordLists/wordListCET6-20110421}
+
+% 29~35
+\input{wordLists/wordListCET6-20110422}
+\input{wordLists/wordListCET6-20110423}
+\input{wordLists/wordListCET6-20110424}
+\input{wordLists/wordListCET6-20110425}
+\input{wordLists/wordListCET6-20110426}
+\input{wordLists/wordListCET6-20110427}
+\input{wordLists/wordListCET6-20110428}
+
+% 36~42
+\input{wordLists/wordListCET6-20110429}
+\input{wordLists/wordListCET6-20110430}
+\input{wordLists/wordListCET6-20110501}
+\input{wordLists/wordListCET6-20110502}
+\input{wordLists/wordListCET6-20110503}
+\input{wordLists/wordListCET6-20110504}
+\input{wordLists/wordListCET6-20110513}
+
+% 43~49
+\input{wordLists/wordListCET6-20110514}
+\input{wordLists/wordListCET6-20110522}
+\input{wordLists/wordListCET6-20110605}
+
+% 文档结束
+\end{document}

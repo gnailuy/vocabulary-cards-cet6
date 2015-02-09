@@ -7,6 +7,10 @@
 *.out
 *.toc
 
+## Output files
+*.pdf
+*.ps
+
 ## Intermediate documents:
 *.dvi
 *-converted-to.*
