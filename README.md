@@ -6,4 +6,4 @@
 
 所以先放在 Github 上，如果有时间有心情还可以完善下。
 
-截至 2011 年 6 月 5 号的源文件，生成的样本 PDF 可以在[这里](https://dl.dropboxusercontent.com/u/4598059/vocabularyCardsSample.pdf)下载到。
+截至 2011 年 6 月 5 号的源文件，生成的样本 PDF 可以在[这里](https://www.dropbox.com/s/5h0ven9bonwsjfd/vocabularyCardsSample.pdf?dl=0)下载到。
